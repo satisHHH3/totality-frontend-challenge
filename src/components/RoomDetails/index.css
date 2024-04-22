@@ -1,0 +1,45 @@
+.room-details-container{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+}
+
+.room-details-card{
+    width: 90%;
+    padding: 20px;
+    height: 70vh;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.room-details-card img {
+    width: 50%;
+    height: 100%;
+}
+
+.pop-div{
+    width: 250px;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: auto;
+}
+
+.pop-div form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pop-div form input{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 6px;
+    margin-bottom: 6px;
+    background-color: transparent;
+}

@@ -1,0 +1,42 @@
+.room-item-container{
+    width: 400px;
+    min-height: 280px;
+    background-color: aquamarine;
+    width: 88%;
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.room-item-container img{
+    width: 30%;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.room-item-container h1{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.room-item-container p{
+    font-family: Roboto;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.room-item-container button{
+    font-family: Roboto;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 8px 15px;
+}

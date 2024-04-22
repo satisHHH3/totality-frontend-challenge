@@ -1,0 +1,30 @@
+.header-container{
+   background-color: lightblue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 6px 20px;
+}
+
+.header-logo-container{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.header-logo-container img{
+    width: 50px;
+}
+
+.header-logo-container h1{
+   font-family: Bree serif;
+}
+
+
+.header-list-lg-container{
+display: flex;
+align-items: center;
+font-family: Roboto;
+list-style-type: none;
+gap: 10px;
+}
