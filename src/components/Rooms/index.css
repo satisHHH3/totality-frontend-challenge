@@ -15,6 +15,17 @@
     border-radius: 5px;
 }
 
+@media(max-width:768px){
+    .room-item-container img{
+        height: 188px;
+        width: 100%;
+    }
+
+    .room-item-container{
+        flex-direction: column;
+    }
+}
+
 .room-item-container h1{
     font-family: Roboto;
     font-weight: 500;

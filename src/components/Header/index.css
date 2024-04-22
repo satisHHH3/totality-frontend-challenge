@@ -28,3 +28,9 @@ font-family: Roboto;
 list-style-type: none;
 gap: 10px;
 }
+
+@media(max-width:768px){
+   .header-list-lg-container{
+      display: none;
+   }
+}

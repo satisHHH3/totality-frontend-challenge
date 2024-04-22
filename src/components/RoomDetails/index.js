@@ -72,7 +72,7 @@ const RoomDetails = () => {
                     <div className="room-details-container">
                         <div className="room-details-card">
                             <img src={img1} />
-                            <div>
+                            <div className='form-cont'>
                                 <h1>Booking Details</h1>
                                 <p>Name: <span>26-06-2021</span></p>
                                 <p>From Date: <span>26-06-2021</span></p>
